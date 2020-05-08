@@ -1,5 +1,6 @@
 package com.example.sqlite
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -18,20 +19,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setuplist(list)
-
         setupRecyclerView()
 
-        this_adapter.update(list)
-
-
     }
 
-    fun setuplist(list:MutableList<Model>){
-
-
-
-    }
 
     fun  setupRecyclerView(){
 
