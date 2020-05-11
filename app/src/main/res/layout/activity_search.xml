@@ -14,8 +14,8 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="413dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -24,7 +24,7 @@
                 android:background="#0065B3">
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/search_btn"
                     android:layout_width="71dp"
                     android:layout_height="44dp"
                     android:layout_alignParentStart="true"
@@ -34,13 +34,13 @@
                     app:srcCompat="@drawable/search" />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/search_et"
                     android:layout_width="220dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="-5dp"
                     android:layout_marginBottom="9dp"
-                    android:layout_toEndOf="@+id/imageView6"
+                    android:layout_toEndOf="@+id/search_btn"
                     android:backgroundTint="@color/cardview_light_background"
                     android:ems="10"
                     android:hint="Search"

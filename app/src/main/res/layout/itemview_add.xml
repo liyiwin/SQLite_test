@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
+            android:id="@+id/add_btn"
             android:layout_width="match_parent"
             android:layout_height="100dp">
 
